@@ -5,3 +5,4 @@ script: node_modules/jasmine/bin/jasmine.js
 
 before_script:
     - npm install
+    - JASMINE_CONFIG_PATH=test/support/jasmine.json jasmine
