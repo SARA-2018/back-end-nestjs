@@ -1,7 +1,7 @@
 language: node_js
 node_js:
     - "9.2.1"
-script: JASMINE_CONFIG_PATH=spec/test/jasmine.json jasmine
+script: JASMINE_CONFIG_PATH=test/support/jasmine.json jasmine
 
 before_script:
     - npm install
